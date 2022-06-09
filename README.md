@@ -1,16 +1,24 @@
 # Netflix and Analyze
 Analysis of movie critic data to determine if there are implicit biases from each site.
 
-### Topic and Why
-Our topic will be about movie critic ratings and whether there is a trend of biased movie reviews based on genre between the critic services. This topic was selected because critic reviews vary from site to site. It may be by 10 points or 50 points and we were wondering if one movie critic source was better than another.
+## Topic and Why
+Our topic will be about movie critic ratings and whether there is a trend of biased movie reviews based on genre between the critic services. This topic was selected because critic reviews vary from site to site. It may be by 10 points or 50 points and we were wondering if one movie critic source was better than another for certain genres.
 
-### Data Overview and Questions
-We found multiple datasets of critic reviews broken down by what critic service the reviews were pulled from, box office earnings, genre of the movie, the movie rating (pg-13, R, pg) we have even come across datasets that break it down by the actual critic. With these datasets we hope to conclude whether there is a bias in the critic review score, and what may be affecting the bias. The bias could be based on genre, or movie ratings.
+## Data Overview
+We found multiple datasets of critic reviews broken down by what critic service the reviews were pulled from, box office earnings, genre of the movie, and the movie rating (PG-13, R, PG). We have even come across datasets that break down the movie score by the critic it was given from. 
 
-Another question is if there is a relation between the movie rating and the box office earnings. The biased critique of a movie may have a negative impact on the box office earnings. If so it can be concluded that critic services are doing the movie industry a disservice by not allowing a movie to reach its full potential in sales.
+### Questions
+
+* Use the dataset to find a bias in the critic review score:
+    *Bias based in genre or movie rating?
+
+* Relationship between the movie rating and the box office earnings?
+    * Biased critique of a movie may impact box office earnings negatively.
+    * Critics and services could be doing the movie industry a disservice with biased           
+        reviews, not allowing a movie to reach its full potential in sales even if customers would enjoy it
 
 ### Communication
-NAMES
+NAMES: Jean Pierre
 SQUARE
 TRIANGLE
 CIRCLE
