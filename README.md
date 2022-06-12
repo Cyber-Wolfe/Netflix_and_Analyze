@@ -20,6 +20,7 @@ We found multiple datasets of critic reviews broken down by what critic service 
 ### Communication
 
 ![Roles.png](https://github.com/Cyber-Wolfe/Netflix_and_Analyze/blob/main/Resources/Roles.PNG)
+
 NAMES: Jean Pierre
 SQUARE
 TRIANGLE
