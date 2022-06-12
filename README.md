@@ -18,6 +18,8 @@ We found multiple datasets of critic reviews broken down by what critic service 
         reviews, not allowing a movie to reach its full potential in sales even if customers would enjoy it
 
 ### Communication
+
+![Roles.png](https://github.com/Cyber-Wolfe/Netflix_and_Analyze/blob/main/Resources/Roles.PNG)
 NAMES: Jean Pierre
 SQUARE
 TRIANGLE
