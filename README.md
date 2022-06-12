@@ -10,7 +10,6 @@ We found multiple datasets of critic reviews broken down by what critic service 
 ## Questions
 
 * Use the dataset to find a bias in the critic review score:
-    *Bias based in genre or movie rating?
 
 * Relationship between the movie rating and the box office earnings?
     * Biased critique of a movie may impact box office earnings negatively.
