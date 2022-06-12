@@ -21,7 +21,7 @@ We found multiple datasets of critic reviews broken down by what critic service 
 
 ![Roles.png](https://github.com/Cyber-Wolfe/Netflix_and_Analyze/blob/main/Resources/Roles.PNG)
 
-### NAMES: 
+### Roles: 
 
 Jean Pierre: Database mockup 
 
@@ -31,9 +31,9 @@ Ethan Freeze: Giving direction on technologies to use
 
 Suman:  Working on machine learning models
 
+### Channels:
 
-
-We are all in a group slack, discord, whatsapp, and github. Slack, and discord will be used as a resource sharing platform. Whatsapp will be for quick communication and assistance. Discord will also be used as a out of class call collaboration platform. Github will be used for filesharing and uploading completed works that are ready to be peer reviewed.
+Our group will utilize Discord, Whatsapp, and github to communicate throughout the project. Discord will be used as a resource sharing platform, for code, troubleshooting larger issues, meetings, and screenshos of work in progress. Whatsapp will be for quick communication and assistance for the day-to-day. Github will be ultimately utilized for filesharing and uploading completed work that is ready for peer review.
 
 ### Tech Overview
-We will clean the data through mysql. After cleaning the database we will bring it in to jupyter notebook and start making a model.
+We will clean the data with excel and jupyter notebook using pandas. Then the cleaned data will be placed into machine learning models and into a database to for easy querying of datasets to be analyzed.
