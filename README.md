@@ -7,7 +7,7 @@ Our topic will be about movie critic ratings and whether there is a trend of bia
 ## Data Overview
 We found multiple datasets of critic reviews broken down by what critic service the reviews were pulled from, box office earnings, genre of the movie, and the movie rating (PG-13, R, PG). We have even come across datasets that break down the movie score by the critic it was given from. 
 
-### Questions
+## Questions
 
 * Use the dataset to find a bias in the critic review score:
     *Bias based in genre or movie rating?
@@ -17,32 +17,19 @@ We found multiple datasets of critic reviews broken down by what critic service 
     * Critics and services could be doing the movie industry a disservice with biased           
         reviews, not allowing a movie to reach its full potential in sales even if customers would enjoy it
 
-### Communication
+## Communication
 
 ![Roles.png](https://github.com/Cyber-Wolfe/Netflix_and_Analyze/blob/main/Resources/Roles.PNG)
 
-NAMES: Jean Pierre
-SQUARE
-TRIANGLE
-CIRCLE
-X
-Jean Pierre
+### NAMES: 
 
+Jean Pierre: Database mockup 
 
-O
+Josh Wolfe: Leading repository structure and requests
 
-Josh Wolfe
-O
+Ethan Freeze: Giving direction on technologies to use
 
-
-
-Ethan Freeze
-
-
-O
-Suman
-
-O
+Suman:  Working on machine learning models
 
 
 
