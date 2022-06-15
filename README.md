@@ -35,7 +35,8 @@ Suman:  Working on machine learning models
 Our group will utilize Discord, Whatsapp, and github to communicate throughout the project. Discord will be used as a resource sharing platform, for code, troubleshooting larger issues, meetings, and screenshos of work in progress. Whatsapp will be for quick communication and assistance for the day-to-day. Github will be ultimately utilized for filesharing and uploading completed work that is ready for peer review.
 
 ## Tech Overview
-We will clean the data with excel and jupyter notebook using pandas. Then the cleaned data will be placed into machine learning models and into a database to for easy querying of datasets to be analyzed.
+
+The initial cleaning of our data had been done by translating the excel sheet and    We had dro Then the cleaned data will be placed into machine learning models and into a database to for easy querying of datasets to be analyzed.
 
 ### Database mockup
 
