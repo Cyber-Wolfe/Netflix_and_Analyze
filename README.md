@@ -32,7 +32,7 @@ Suman:  Working on machine learning models
 
 ### Channels:
 
-Our group will utilize Discord, Whatsapp, and github to communicate throughout the project. Discord will be used as a resource sharing platform, for code, troubleshooting larger issues, meetings, and screenshos of work in progress. Whatsapp will be for quick communication and assistance for the day-to-day. Github will be ultimately utilized for filesharing and uploading completed work that is ready for peer review.
+Our group will utilize Discord, Whatsapp, and github to communicate throughout the project. Discord will be used as a resource sharing platform, for code, troubleshooting larger issues, meetings, and screenshots of work in progress. Whatsapp will be for quick communication and assistance for the day-to-day. Github will be ultimately utilized for filesharing and uploading completed work that is ready for peer-review.
 
 ## Tech Overview
 
