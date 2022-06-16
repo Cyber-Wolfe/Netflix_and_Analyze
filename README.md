@@ -32,10 +32,11 @@ Suman:  Working on machine learning models
 
 ### Channels:
 
-Our group will utilize Discord, Whatsapp, and github to communicate throughout the project. Discord will be used as a resource sharing platform, for code, troubleshooting larger issues, meetings, and screenshos of work in progress. Whatsapp will be for quick communication and assistance for the day-to-day. Github will be ultimately utilized for filesharing and uploading completed work that is ready for peer review.
+Our group will utilize Discord, Whatsapp, and github to communicate throughout the project. Discord will be used as a resource sharing platform, for code, troubleshooting larger issues, meetings, and screenshots of work in progress. Whatsapp will be for quick communication and assistance for the day-to-day. Github will be ultimately utilized for filesharing and uploading completed work that is ready for peer-review.
 
 ## Tech Overview
-We will clean the data with excel and jupyter notebook using pandas. Then the cleaned data will be placed into machine learning models and into a database to for easy querying of datasets to be analyzed.
+
+The initial cleaning of our data had been done by translating the excel sheet and exporting them into a the Microsoft SQL database platform and were further seperated into, Titles, Release Date and Movie Type. The data was then seperated based on the data we had wanted to analyze by, genere, language, score, and the overall filtered data.  The filtered data set is the data we will be using for the machine learning model. After more cleaning the initial data went from 9353 row to 3588 after dropping columns and null values.
 
 ### Database mockup
 
