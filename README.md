@@ -38,7 +38,8 @@ and the movie rating (PG-13, R, PG). We have even come across datasets that brea
 
 ## Technologies
 
-* Python importing CSVs (Jupyter Notebook, Pandas)
+* Python (Jupyter Notebook, Pandas)
+	* Importing of CSVs	
 
 * Microsoft SQL Server
 
