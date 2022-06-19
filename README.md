@@ -37,11 +37,14 @@ and the movie rating (PG-13, R, PG). We have even come across datasets that brea
 
 
 ## Technologies
-Python (Jupyter Notebook, Pandas)
-SQL
-Csv
-Machine Learning - to be used
-Tableau - to be used
+
+Python importing CSVs (Jupyter Notebook, Pandas)
+
+Microsoft SQL Server
+
+Machine Learning in Python - to be implemented
+
+Tableau - to be implemented
 
 ## Tech Overview
 
