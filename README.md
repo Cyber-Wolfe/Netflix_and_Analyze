@@ -4,9 +4,9 @@
 
 Overview of the Project
 
-Machine Learning -Model
-
 Data Sources/Data Overview
+
+Machine Learning -Model
 
 * Technologies
 
