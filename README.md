@@ -12,9 +12,9 @@ Data Sources/Data Overview
 
 * Tech Overview
 
-     * Machine Learning -Model
+     * Machine-Learning Model
 
-     * Mockup
+     * Database Mockup
 
 Communication
 
