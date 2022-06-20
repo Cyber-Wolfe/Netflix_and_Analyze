@@ -4,23 +4,23 @@
 
 Overview of the Project
 
-	Question Answered
+Machine Learning -Model
 
 Data Sources/Data Overview
 
-Technologies
+* Technologies
 
-Tech Overview
+* Tech Overview
 
-	Machine Learning -Model
+     * Machine Learning -Model
 
-	Mockup
+     * Mockup
 
 Communication
 
-	* Channels
+* Channels
 
-	* Team Members & Roles
+* Team Members & Roles
 
 
 ## Overview of the Project:
