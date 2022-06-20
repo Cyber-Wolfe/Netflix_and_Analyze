@@ -65,7 +65,7 @@ Below are the details and steps followed for Netflix Analyze:
 1. Data Selection: Data was selected from kaggle.com as an excel file which was exported into a Microsoft SQL database paltform. It was then seperated into Titles, Release Date and Movie Type inside the SQL platform. The Original data set
     was seperated into different files based on Genre, Language and Score. After sifting through the column's raw data, it was cleaned by removing the coloumns which won't impact the rating e.g run time, images, Netflix Link,IMDb Link,Summary,IMDb Votes,Image,Poster,
    TMDb Trailer,Trailer Site etc. There were missing data, duplicates and Nans and null values in the columns which were removed using SQL and Python as part of data cleaning. Total data after cleaning came down from 9425 rows X 29 columns to 3588 rows Xv12 Columns.
-Two data frames were created with cleaned data. First data frame includes 3588 rows X 12 Columns which will be used for reports/dashboard using Tableau. Second data frame where only numeric adat will be used includes 3588 rows X 5 columns which will be used for machine learning.
+Two DataFrames were created with cleaned data. First DataFrame includes 3588 rows X 12 Columns which will be used for reports/dashboard using Tableau. The second DataFrame is where only numeric data will be used and it includes 3588 rows X 5 columns which will be used for machine learning.
    
 2. Data Processing: New column "Key" was created which has unique values mapping to each Title. same Key has beed used in another xlsxfiles - Genre, Language and Score.
 
