@@ -6,15 +6,13 @@ Overview of the Project
 
 Data Sources/Data Overview
 
-Machine Learning -Model
+Technologies
 
-* Technologies
+Tech Overview
 
-* Tech Overview
+   * Machine-Learning Model
 
-     * Machine-Learning Model
-
-     * Database Mockup
+   * Database Mockup
 
 Communication
 
