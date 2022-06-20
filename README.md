@@ -3,15 +3,24 @@
 ### Table of Contents 
 
 Overview of the Project
+
 	Question Answered
+
 Data Sources/Data Overview
+
 Technologies
+
 Tech Overview
+
 	Machine Learning -Model
+
 	Mockup
+
 Communication
-	Channels
-	Team Members & Roles
+
+	* Channels
+
+	* Team Members & Roles
 
 
 ## Overview of the Project:
