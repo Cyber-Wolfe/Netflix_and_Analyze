@@ -24,9 +24,8 @@ Communication
 
 
 ## Overview of the Project:
-The project is to analyse movie critic data to determine if there are implicit biases from each site. The critic plays a role in success of movies.Our findings will show movie critic ratings and whether there is a trend of 
-biased movie reviews based on genre between the critic services. This topic was selected because critic reviews vary from site to site. It may be by 10 points or 50 points, and we are trying to analyse if one movie critic 
-source is better than another for certain genres.
+The project is to analyse movie critic data to determine if there are implicit biases from Netflix, Metacritic, IMDB, and Hidden Gems. The critic plays a role in the success of movies and our findings will show if movie critic ratings are unbiased and don't show a trend of 
+biased movie reviews based on genre from said critic services. This topic was selected because critic reviews vary from site to site and it's hard to understand if a movie is truly good because of its merit or if a certain site doesn't like said movie genres. We also want to uncover whether certain sites are a better source of reviews for a certain genre of movie than others. 
 
 ### Question Answered:
 * Use the dataset to find a bias in the critic review score:
