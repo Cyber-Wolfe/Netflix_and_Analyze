@@ -73,11 +73,11 @@ Below are the details and steps followed for Netflix Analyze:
 
 5. Data Transformation : After cleaning all data, the data was stored in two CSV files for further analysis and used for Report and Machine learning. 
 
-Linear Regression
+*Linear Regression*
  
 ![](https://github.com/Cyber-Wolfe/Netflix_and_Analyze/blob/Netflix_Analyze_Dataframe/Resources/Picture18.png) 
 
-Neutral Network Test
+*Neutral Network Test*
 
 ![](https://github.com/Cyber-Wolfe/Netflix_and_Analyze/blob/Netflix_Analyze_Dataframe/Resources/Picture19.png) 
  
