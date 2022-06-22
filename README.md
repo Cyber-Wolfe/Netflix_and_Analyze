@@ -69,8 +69,7 @@ Below are the details and steps followed for the Machine-Learning section:
 
 *Merged DataFrame*
 
-Will add DataFrame here!!!!
-![]()
+![Merged_DataFrame.PNG](https://github.com/Cyber-Wolfe/Netflix_and_Analyze/blob/main/Resources/Merged_DataFrame.PNG)
 
 4. After the merge of the two DataFrames, Short War, Reality-Tv, Talk/-Show, and Game-Show were all dropped for having no media that had these categories listed.
 
