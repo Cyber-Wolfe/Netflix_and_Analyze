@@ -95,7 +95,7 @@ THe team will utilize Discord, Whatsapp, and github to communicate throughout th
 
 ![Roles.png](https://github.com/Cyber-Wolfe/Netflix_and_Analyze/blob/main/Resources/Roles.PNG)
 
-				       <h4 id"team-members">### Team Members & Roles</h4> 
+				       <h4 id="team-members">### Team Members & Roles</h4> 
 
 Jean Pierre: Database mockup 
 
