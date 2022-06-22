@@ -3,21 +3,27 @@
 ### Table of Contents 
 
 Overview of the Project
-	Question Answered
+
 Data Sources/Data Overview
+
 Technologies
+
 Tech Overview
-	Machine Learning -Model
-	Mockup
+
+   * Machine-Learning Model
+
+   * Database Mockup
+
 Communication
-	Channels
-	Team Members & Roles
+
+* Channels
+
+* Team Members & Roles
 
 
 ## Overview of the Project:
-The project is to analyse movie critic data to determine if there are implicit biases from each site. The critic plays a role in success of movies.Our findings will show movie critic ratings and whether there is a trend of 
-biased movie reviews based on genre between the critic services. This topic was selected because critic reviews vary from site to site. It may be by 10 points or 50 points, and we are trying to analyse if one movie critic 
-source is better than another for certain genres.
+The project is to analyse movie critic data to determine if there are implicit biases from Netflix, Metacritic, IMDB, and Hidden Gems. The critic plays a role in the success of movies and our findings will show if movie critic ratings are unbiased and don't show a trend of 
+biased movie reviews based on genre from said critic services. This topic was selected because critic reviews vary from site to site and it's hard to understand if a movie is truly good because of its merit or if a certain site doesn't like said movie genres. We also want to uncover whether certain sites are a better source of reviews for a certain genre of movie than others. 
 
 ### Question Answered:
 * Use the dataset to find a bias in the critic review score:
@@ -37,11 +43,15 @@ and the movie rating (PG-13, R, PG). We have even come across datasets that brea
 
 
 ## Technologies
-Python (Jupyter Notebook, Pandas)
-SQL
-Csv
-Machine Learning - to be used
-Tableau - to be used
+
+* Python (Jupyter Notebook, Pandas)
+	* Importing of CSVs	
+
+* Microsoft SQL Server
+
+* Machine Learning in Python - to be implemented
+
+* Tableau - to be implemented
 
 ## Tech Overview
 
@@ -52,25 +62,27 @@ The filtered data set is the data we will be using for the machine learning mode
 ### Machine Learning - Model
 Below are the details and steps followed for Netflix Analyze:
 
-1. Data Selection: Data was selected from kaggle.com. Data set was available in the excel file which was exported into a Microsoft SQL database paltform. Data was seperated into Titles, Release Date and Movie Type. The Original data
-   data was seperated into different files based on Genre, Language and Score. After lloing throught the columns main raw data was cleaned by removing the coloumn which wont impact the rating e.g run time, images, Netflix Link,IMDb Link,Summary,IMDb Votes,Image,Poster,
-   TMDb Trailer,Trailer Site etc. There were missing data, duplicates and Nans and null values in column -Title which were removed using sql and python as part of data cleaning. Total data after cleaning came down from 9425 rows X 29 columns to 3588 rows X12 Columns.Two data frames were created 
-   with cleaned data. First data frame includes 3588 rows X 12 Columns which will be used for reports/dashboard using Tableau. Second data frame where only numeric adat will be used includes 3588 rows X 5 columns which will be used for machine learning.
+1. Data Selection: Data was selected from kaggle.com as an excel file which was exported into a Microsoft SQL database paltform. It was then seperated into Titles, Release Date and Movie Type inside the SQL platform. 
+ 
+2. The Original data set was seperated into different files based on Genre, Language and Score. After sifting through the column's raw data, it was cleaned by removing the coloumns which won't impact the rating e.g run time, images, Netflix Link,IMDb Link,Summary,IMDb Votes,Image,Poster,
+   TMDb Trailer,Trailer Site etc. There were missing data, duplicates and Nans and null values in the columns which were removed using SQL and Python as part of data cleaning. Total data after cleaning came down from 9425 rows X 29 columns to 3588 rows Xv12 Columns.
    
-2. Data Processing: New column "Key" was created which has unique values mapping to each Title. same Key has beed used in another xlsxfiles - Genre, Language and Score.
+3. Two DataFrames were created with cleaned data. First DataFrame includes 3588 rows X 12 Columns which will be used for reports/dashboard using Tableau. The second DataFrame is where only numeric data will be used and it includes 3588 rows X 5 columns which will be used for machine learning.
+   
+4. Data Processing: New column "Key" was created which has unique values mapping to each Title. same Key has beed used in another xlsxfiles - Genre, Language and Score.
 
-3. Data Transformation : After cleaning all data, the data was stored in two CSV files for further analysis and used for Report and Machine learning. 
+5. Data Transformation : After cleaning all data, the data was stored in two CSV files for further analysis and used for Report and Machine learning. 
 
-Linear_Regression
+*Linear Regression*
  
 ![](https://github.com/Cyber-Wolfe/Netflix_and_Analyze/blob/Netflix_Analyze_Dataframe/Resources/Picture18.png) 
 
-Neutral_Network_Test
+*Neutral Network Test*
 
 ![](https://github.com/Cyber-Wolfe/Netflix_and_Analyze/blob/Netflix_Analyze_Dataframe/Resources/Picture19.png) 
  
 
-### Database mockup
+### Database Mockup
 
 ![dbdiagram.PNG](https://github.com/Cyber-Wolfe/Netflix_and_Analyze/blob/main/Resources/dbdiagram.PNG)
 
@@ -79,7 +91,7 @@ Neutral_Network_Test
 
 ### Channels:
 
-Our group will utilize Discord, Whatsapp, and github to communicate throughout the project. Discord will be used as a resource sharing platform, for code, troubleshooting larger issues, meetings, and screenshots of work in progress. Whatsapp will be for quick communication and assistance for the day-to-day. Github will be ultimately utilized for filesharing and uploading completed work that is ready for peer-review.
+THe team will utilize Discord, Whatsapp, and github to communicate throughout the project. Discord will be used as a resource sharing platform, for code, troubleshooting larger issues, meetings, and screenshots of work in progress. Whatsapp will be for quick communication and assistance for the day-to-day. Lastly, Github will be utilized for filesharing and uploading completed work that is ready for peer-review.
 
 ![Roles.png](https://github.com/Cyber-Wolfe/Netflix_and_Analyze/blob/main/Resources/Roles.PNG)
 
