@@ -2,7 +2,7 @@
 
 ### Table of Contents 
 
-Overview of the Project
+<a href="#overview">Overview of the Project</a>
 
 Data Sources/Data Overview
 
@@ -21,7 +21,7 @@ Communication
 * Team Members & Roles
 
 
-## Overview of the Project:
+<h3 id="overview">## Overview of the Project:</h3>
 The project is to analyse movie critic data to determine if there are implicit biases from Netflix, Metacritic, IMDB, and Hidden Gems. The critic plays a role in the success of movies and our findings will show if movie critic ratings are unbiased and don't show a trend of 
 biased movie reviews based on genre from said critic services. This topic was selected because critic reviews vary from site to site and it's hard to understand if a movie is truly good because of its merit or if a certain site doesn't like said movie genres. We also want to uncover whether certain sites are a better source of reviews for a certain genre of movie than others. 
 
