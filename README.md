@@ -67,7 +67,7 @@ Below are the details and steps followed for the Machine-Learning section:
       
 3. The score dataset and genre dataset were merged with Pandas on the "Key" column and had its index set to said column creating an overall larger set to work down from.
 
-*Merged DataFrame
+*Merged DataFrame*
 
 Will add DataFrame here!!!!
 ![]()
