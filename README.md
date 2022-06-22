@@ -21,7 +21,7 @@
 <a href="#team-members">* Team Members & Roles</a>
 
 
-<h3 id="overview">## Overview of the Project:</h3>
+<h3 id="overview">Overview of the Project:</h3>
 The project is to analyse movie critic data to determine if there are implicit biases from Netflix, Metacritic, IMDB, and Hidden Gems. The critic plays a role in the success of movies and our findings will show if movie critic ratings are unbiased and don't show a trend of 
 biased movie reviews based on genre from said critic services. This topic was selected because critic reviews vary from site to site and it's hard to understand if a movie is truly good because of its merit or if a certain site doesn't like said movie genres. We also want to uncover whether certain sites are a better source of reviews for a certain genre of movie than others. 
 
@@ -33,7 +33,7 @@ biased movie reviews based on genre from said critic services. This topic was se
     * Critics and services could be doing the movie industry a disservice with biased           
         reviews, not allowing a movie to reach its full potential in sales even if customers would enjoy it
 
-<h3 id="data-sources">## Data Sources/Data Overview</h3>
+<h3 id="data-sources">Data Sources/Data Overview</h3>
 For our project, we used Netflix xlsx file  from Kaggle.com. We used multiple datasets of critic reviews broken down by what critic service the reviews were pulled from, box office earnings, genre of the movie, 
 and the movie rating (PG-13, R, PG). We have even come across datasets that break down the movie score by the critic it was given from. 
 
