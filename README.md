@@ -4,21 +4,21 @@
 
 <a href="#overview">Overview of the Project</a>
 
-Data Sources/Data Overview
+<a href="#data-sources">Data Sources/Data Overview</a>
 
-Technologies
+<a href="#technologies">Technologies</a>
 
-Tech Overview
+<a href="#tech-overview">Tech Overview</a>
 
-   * Machine-Learning Model
+   <a href="#machine-learning">* Machine-Learning Model</a>
 
-   * Database Mockup
+   <a href="#database-mockup">* Database Mockup</a>
 
-Communication
+<a href="#communication">Communication</a>
 
-* Channels
+<a href="#channels">* Channels</a>
 
-* Team Members & Roles
+<a href="#team-members">* Team Members & Roles</a>
 
 
 <h3 id="overview">## Overview of the Project:</h3>
@@ -33,7 +33,7 @@ biased movie reviews based on genre from said critic services. This topic was se
     * Critics and services could be doing the movie industry a disservice with biased           
         reviews, not allowing a movie to reach its full potential in sales even if customers would enjoy it
 
-## Data Sources/Data Overview
+<h3 id="data-sources>## Data Sources/Data Overview</h3>
 For our project, we used Netflix xlsx file  from Kaggle.com. We used multiple datasets of critic reviews broken down by what critic service the reviews were pulled from, box office earnings, genre of the movie, 
 and the movie rating (PG-13, R, PG). We have even come across datasets that break down the movie score by the critic it was given from. 
 
@@ -42,7 +42,7 @@ and the movie rating (PG-13, R, PG). We have even come across datasets that brea
 
 
 
-## Technologies
+	<h3 id="technologies">## Technologies</h3>
 
 * Python (Jupyter Notebook, Pandas)
 	* Importing of CSVs	
@@ -53,13 +53,13 @@ and the movie rating (PG-13, R, PG). We have even come across datasets that brea
 
 * Tableau - to be implemented
 
-## Tech Overview
+			     <h3 id="tech-overview">## Tech Overview</h3>
 
 The initial cleaning of our data had been done by translating the excel sheet and exporting them into a the Microsoft SQL database platform and were further seperated into, Titles, 
 Release Date and Movie Type. The data was then seperated based on the data we had wanted to analyze by, genere, language, score, and the overall filtered data.  
 The filtered data set is the data we will be using for the machine learning model. 
 
-### Machine Learning - Model
+						   <h4 id="machine-learning">### Machine Learning - Model</h4>
 Below are the details and steps followed for Netflix Analyze:
 
 1. Data Selection: Data was selected from kaggle.com as an excel file which was exported into a Microsoft SQL database paltform. It was then seperated into Titles, Release Date and Movie Type inside the SQL platform. 
@@ -82,20 +82,20 @@ Below are the details and steps followed for Netflix Analyze:
 ![](https://github.com/Cyber-Wolfe/Netflix_and_Analyze/blob/Netflix_Analyze_Dataframe/Resources/Picture19.png) 
  
 
-### Database Mockup
+				    <h4 id="database-mockup">### Database Mockup</h4>
 
 ![dbdiagram.PNG](https://github.com/Cyber-Wolfe/Netflix_and_Analyze/blob/main/Resources/dbdiagram.PNG)
 
 
-## Communication
+<h3 id="communication">## Communication</h3>
 
-### Channels:
+		      <h4 id="channels">### Channels:</h4>
 
 THe team will utilize Discord, Whatsapp, and github to communicate throughout the project. Discord will be used as a resource sharing platform, for code, troubleshooting larger issues, meetings, and screenshots of work in progress. Whatsapp will be for quick communication and assistance for the day-to-day. Lastly, Github will be utilized for filesharing and uploading completed work that is ready for peer-review.
 
 ![Roles.png](https://github.com/Cyber-Wolfe/Netflix_and_Analyze/blob/main/Resources/Roles.PNG)
 
-### Team Members & Roles 
+				       <h4 id"team-members">### Team Members & Roles</h4> 
 
 Jean Pierre: Database mockup 
 
