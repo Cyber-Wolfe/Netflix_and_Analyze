@@ -77,7 +77,7 @@ Below are the details and steps followed for Netflix Analyze:
  
 ![ScatterPlotBestFIt.png](https://github.com/Cyber-Wolfe/Netflix_and_Analyze/blob/Netflix_Analyze_Dataframe/Resources/ScatterPlotBestFIt.png) 
 
-*Neutral Network Test*
+*Classification Test*
 
 ![Classification.png](https://github.com/Cyber-Wolfe/Netflix_and_Analyze/blob/Netflix_Analyze_Dataframe/Resources/Classification.png) 
  
