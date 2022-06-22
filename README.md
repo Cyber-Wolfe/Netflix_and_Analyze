@@ -75,7 +75,7 @@ Below are the details and steps followed for Netflix Analyze:
 
 *Linear Regression*
  
-![](https://github.com/Cyber-Wolfe/Netflix_and_Analyze/blob/Netflix_Analyze_Dataframe/Resources/Picture18.png) 
+![ScatterPlotBestFIt.png](https://github.com/Cyber-Wolfe/Netflix_and_Analyze/blob/Netflix_Analyze_Dataframe/Resources/ScatterPlotBestFIt.png) 
 
 *Neutral Network Test*
 
