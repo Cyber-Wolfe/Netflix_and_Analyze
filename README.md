@@ -10,9 +10,9 @@
 
 <a href="#th-overview">Tech Overview</a>
 
-   <a href="#machine-learning">* Machine-Learning Model</a>
+<a href="#machine-learning">* Machine-Learning Model</a>
 
-   <a href="#database-mockup">* Database Mockup</a>
+<a href="#database-mockup">* Database Mockup</a>
 
 <a href="#communication">Communication</a>
 
@@ -42,7 +42,7 @@ and the movie rating (PG-13, R, PG). We have even come across datasets that brea
 
 
 
-	<h3 id="technologies">## Technologies</h3>
+<h3 id="technologies">Technologies</h3>
 
 * Python (Jupyter Notebook, Pandas)
 	* Importing of CSVs	
@@ -53,13 +53,14 @@ and the movie rating (PG-13, R, PG). We have even come across datasets that brea
 
 * Tableau - to be implemented
 
-			     <h3 id="th-overview">## Tech Overview</h3>
+<h3 id="th-overview">Tech Overview</h3>
 
 The initial cleaning of our data had been done by translating the excel sheet and exporting them into a the Microsoft SQL database platform and were further seperated into, Titles, 
 Release Date and Movie Type. The data was then seperated based on the data we had wanted to analyze by, genere, language, score, and the overall filtered data.  
 The filtered data set is the data we will be using for the machine learning model. 
 
-						   <h4 id="machine-learning">### Machine Learning - Model</h4>
+<h4 id="machine-learning">Machine Learning - Model</h4>
+
 Below are the details and steps followed for Netflix Analyze:
 
 1. Data Selection: Data was selected from kaggle.com as an excel file which was exported into a Microsoft SQL database paltform. It was then seperated into Titles, Release Date and Movie Type inside the SQL platform. 
@@ -82,20 +83,20 @@ Below are the details and steps followed for Netflix Analyze:
 ![](https://github.com/Cyber-Wolfe/Netflix_and_Analyze/blob/Netflix_Analyze_Dataframe/Resources/Picture19.png) 
  
 
-				    <h4 id="database-mockup">### Database Mockup</h4>
+<h4 id="database-mockup">Database Mockup</h4>
 
 ![dbdiagram.PNG](https://github.com/Cyber-Wolfe/Netflix_and_Analyze/blob/main/Resources/dbdiagram.PNG)
 
 
-<h3 id="communication">## Communication</h3>
+<h3 id="communication">Communication</h3>
 
-		      <h4 id="channels">### Channels:</h4>
+<h4 id="channels">Channels:</h4>
 
 THe team will utilize Discord, Whatsapp, and github to communicate throughout the project. Discord will be used as a resource sharing platform, for code, troubleshooting larger issues, meetings, and screenshots of work in progress. Whatsapp will be for quick communication and assistance for the day-to-day. Lastly, Github will be utilized for filesharing and uploading completed work that is ready for peer-review.
 
 ![Roles.png](https://github.com/Cyber-Wolfe/Netflix_and_Analyze/blob/main/Resources/Roles.PNG)
 
-				       <h4 id="team-members">### Team Members & Roles</h4> 
+<h4 id="team-members">Team Members & Roles</h4> 
 
 Jean Pierre: Database mockup 
 
