@@ -33,7 +33,7 @@ biased movie reviews based on genre from said critic services. This topic was se
     * Critics and services could be doing the movie industry a disservice with biased           
         reviews, not allowing a movie to reach its full potential in sales even if customers would enjoy it
 
-<h3 id="data-sources>## Data Sources/Data Overview</h3>
+<h3 id="data-sources">## Data Sources/Data Overview</h3>
 For our project, we used Netflix xlsx file  from Kaggle.com. We used multiple datasets of critic reviews broken down by what critic service the reviews were pulled from, box office earnings, genre of the movie, 
 and the movie rating (PG-13, R, PG). We have even come across datasets that break down the movie score by the critic it was given from. 
 
