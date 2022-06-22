@@ -65,7 +65,11 @@ Below are the details and steps followed for the Machine-Learning section:
  
 2. The Original data set was seperated into different files based on Genre, Language and Score. After sifting through the raw dataset, it was cleaned by removing the columns which won't impact the rating e.g run time, images, Netflix Link, IMDb Link, Summary, IMDb Votes, Image, Poster, IMDb Trailer, Trailer Site etc. There were missing data, duplicates and NaNs (Not-a-number(s)) and null values in the columns which were removed using SQL and Python as part of data cleaning. Total data after cleaning came down from 9425 rows X 29 columns to 3588 rows Xv12 Columns.
       
-3. 
+3. The score dataset and genre dataset were merged with Pandas on the "Key" column and had its index set to said column creating an overall larger set to work down from.
+
+*Merged DataFrame
+
+![]()
 
  
 
