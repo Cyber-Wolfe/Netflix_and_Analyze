@@ -69,9 +69,14 @@ Below are the details and steps followed for the Machine-Learning section:
 
 *Merged DataFrame
 
+Will add DataFrame here!!!!
 ![]()
 
- 
+4. After the merge of the two DataFrames, Short War, Reality-Tv, Talk/-Show, and Game-Show were all dropped for having no media that had these categories listed.
+
+5. Each genre column was listed out and then given its own DataFrame to make its own Regression with.
+*Merged DataFrame
+
 
 *Linear Regression*
  
