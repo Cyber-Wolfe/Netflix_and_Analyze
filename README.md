@@ -8,7 +8,7 @@
 
 <a href="#technologies">Technologies</a>
 
-<a href="#tech-overview">Tech Overview</a>
+<a href="#th-overview">Tech Overview</a>
 
    <a href="#machine-learning">* Machine-Learning Model</a>
 
@@ -53,7 +53,7 @@ and the movie rating (PG-13, R, PG). We have even come across datasets that brea
 
 * Tableau - to be implemented
 
-			     <h3 id="tech-overview">## Tech Overview</h3>
+			     <h3 id="th-overview">## Tech Overview</h3>
 
 The initial cleaning of our data had been done by translating the excel sheet and exporting them into a the Microsoft SQL database platform and were further seperated into, Titles, 
 Release Date and Movie Type. The data was then seperated based on the data we had wanted to analyze by, genere, language, score, and the overall filtered data.  
