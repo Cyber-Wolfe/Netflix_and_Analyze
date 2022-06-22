@@ -55,9 +55,7 @@ and the movie rating (PG-13, R, PG). We have even come across datasets that brea
 
 <h3 id="th-overview">Tech Overview</h3>
 
-The initial cleaning of our data had been done by translating the excel sheet and exporting them into a the Microsoft SQL database platform and were further seperated into, Titles, 
-Release Date and Movie Type. The data was then seperated based on the data we had wanted to analyze by, genere, language, score, and the overall filtered data.  
-The filtered data set is the data we will be using for the machine learning model. 
+The initial cleaning of our data had been done by translating the excel sheet and exporting them into a the Microsoft SQL database platform and were further seperated into, Titles, Release Date and Movie Type. The data was then seperated based on the data we had wanted to analyze by, genere, language, score, and the overall filtered data. The genre and score set will be merged into one set and used for the machine-learning aspect of the project.
 
 <h4 id="machine-learning">Machine Learning - Model</h4>
 
