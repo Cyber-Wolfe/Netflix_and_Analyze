@@ -55,22 +55,19 @@ and the movie rating (PG-13, R, PG). We have even come across datasets that brea
 
 <h3 id="th-overview">Tech Overview</h3>
 
-The initial cleaning of our data had been done by translating the excel sheet and exporting them into a the Microsoft SQL database platform and were further seperated into, Titles, Release Date and Movie Type. The data was then seperated based on the data we had wanted to analyze by, genere, language, score, and the overall filtered data. The genre and score set will be merged into one set and used for the machine-learning aspect of the project.
+The initial cleaning of our data had been done by translating the excel sheet and exporting them into a the Microsoft SQL database platform and were further seperated into, Titles, Release Date and Movie Type. The data was then seperated based on the data we had wanted to analyze by, genere, language, score, and the overall filtered data. The genre and score set will be merged into one set and used for the machine-learning aspect of the project. There are two other DataFrames that will be used for the presentation/dashboard, first DataFrame includes 3588 rows X 12 Columns with names and data and the second DataFrame is where only numeric data will be used and it includes 3588 rows X 5 columns which will be used for machine learning. Once all this has been completed and a new "Key" column is created to give each piece of media a unqiue ID, these were converted into CSVs.
 
 <h4 id="machine-learning">Machine Learning - Model</h4>
 
-Below are the details and steps followed for Netflix Analyze:
+Below are the details and steps followed for the Machine-Learning section:
 
-1. Data Selection: Data was selected from kaggle.com as an excel file which was exported into a Microsoft SQL database paltform. It was then seperated into Titles, Release Date and Movie Type inside the SQL platform. 
+1. Data Selection: Data was selected from kaggle.com as an excel file which was exported into a Microsoft SQL database paltform. It was then seperated into Titles, Release Date and Movie Type inside the Microsoft SQL platform. 
  
-2. The Original data set was seperated into different files based on Genre, Language and Score. After sifting through the column's raw data, it was cleaned by removing the coloumns which won't impact the rating e.g run time, images, Netflix Link,IMDb Link,Summary,IMDb Votes,Image,Poster,
-   TMDb Trailer,Trailer Site etc. There were missing data, duplicates and Nans and null values in the columns which were removed using SQL and Python as part of data cleaning. Total data after cleaning came down from 9425 rows X 29 columns to 3588 rows Xv12 Columns.
-   
-3. Two DataFrames were created with cleaned data. First DataFrame includes 3588 rows X 12 Columns which will be used for reports/dashboard using Tableau. The second DataFrame is where only numeric data will be used and it includes 3588 rows X 5 columns which will be used for machine learning.
-   
-4. Data Processing: New column "Key" was created which has unique values mapping to each Title. same Key has beed used in another xlsxfiles - Genre, Language and Score.
+2. The Original data set was seperated into different files based on Genre, Language and Score. After sifting through the raw dataset, it was cleaned by removing the columns which won't impact the rating e.g run time, images, Netflix Link, IMDb Link, Summary, IMDb Votes, Image, Poster, IMDb Trailer, Trailer Site etc. There were missing data, duplicates and NaNs (Not-a-number(s)) and null values in the columns which were removed using SQL and Python as part of data cleaning. Total data after cleaning came down from 9425 rows X 29 columns to 3588 rows Xv12 Columns.
+      
+3. 
 
-5. Data Transformation : After cleaning all data, the data was stored in two CSV files for further analysis and used for Report and Machine learning. 
+ 
 
 *Linear Regression*
  
