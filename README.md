@@ -35,7 +35,8 @@ biased movie reviews based on genre from said critic services. This topic was se
 
 <h3 id="data-sources">Data Sources/Data Overview</h3>
 For our project, we used Netflix xlsx file  from Kaggle.com. We used multiple datasets of critic reviews broken down by what critic service the reviews were pulled from, box office earnings, genre of the movie, 
-and the movie rating (PG-13, R, PG). We have even come across datasets that break down the movie score by the critic it was given from. 
+and the movie rating (PG-13, R, PG). We have even come across datasets that break down the movie score by the critic it was given from.
+
 
 1. Original Netflix data : https://www.kaggle.com/datasets/syedmubarak/netflix-dataset-latest-2021
 2. Data Base Diagram :https://app.quickdatabasediagrams.com/#/
