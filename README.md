@@ -2,26 +2,26 @@
 
 ### Table of Contents 
 
-Overview of the Project
+<a href="#overview">Overview of the Project</a>
 
-Data Sources/Data Overview
+<a href="#data-sources">Data Sources/Data Overview</a>
 
-Technologies
+<a href="#technologies">Technologies</a>
 
-Tech Overview
+<a href="#th-overview">Tech Overview</a>
 
-   * Machine-Learning Model
+<a href="#machine-learning">* Machine-Learning Model</a>
 
-   * Database Mockup
+<a href="#database-mockup">* Database Mockup</a>
 
-Communication
+<a href="#communication">Communication</a>
 
-* Channels
+<a href="#channels">* Channels</a>
 
-* Team Members & Roles
+<a href="#team-members">* Team Members & Roles</a>
 
 
-## Overview of the Project:
+<h3 id="overview">Overview of the Project:</h3>
 The project is to analyse movie critic data to determine if there are implicit biases from Netflix, Metacritic, IMDB, and Hidden Gems. The critic plays a role in the success of movies and our findings will show if movie critic ratings are unbiased and don't show a trend of 
 biased movie reviews based on genre from said critic services. This topic was selected because critic reviews vary from site to site and it's hard to understand if a movie is truly good because of its merit or if a certain site doesn't like said movie genres. We also want to uncover whether certain sites are a better source of reviews for a certain genre of movie than others. 
 
@@ -33,16 +33,16 @@ biased movie reviews based on genre from said critic services. This topic was se
     * Critics and services could be doing the movie industry a disservice with biased           
         reviews, not allowing a movie to reach its full potential in sales even if customers would enjoy it
 
-## Data Sources/Data Overview
+<h3 id="data-sources">Data Sources/Data Overview</h3>
 For our project, we used Netflix xlsx file  from Kaggle.com. We used multiple datasets of critic reviews broken down by what critic service the reviews were pulled from, box office earnings, genre of the movie, 
-and the movie rating (PG-13, R, PG). We have even come across datasets that break down the movie score by the critic it was given from. 
+and the movie rating (PG-13, R, PG). We have even come across datasets that break down the movie score by the critic it was given from.
 
 1. Original Netflix data : https://www.kaggle.com/datasets/syedmubarak/netflix-dataset-latest-2021
 2. Data Base Diagram :https://app.quickdatabasediagrams.com/#/
 
 
 
-## Technologies
+<h3 id="technologies">Technologies</h3>
 
 * Python (Jupyter Notebook, Pandas)
 	* Importing of CSVs	
@@ -53,49 +53,53 @@ and the movie rating (PG-13, R, PG). We have even come across datasets that brea
 
 * Tableau - to be implemented
 
-## Tech Overview
+<h3 id="th-overview">Tech Overview</h3>
 
-The initial cleaning of our data had been done by translating the excel sheet and exporting them into a the Microsoft SQL database platform and were further seperated into, Titles, 
-Release Date and Movie Type. The data was then seperated based on the data we had wanted to analyze by, genere, language, score, and the overall filtered data.  
-The filtered data set is the data we will be using for the machine learning model. 
+The initial cleaning of our data had been done by translating the excel sheet and exporting them into a the Microsoft SQL database platform and were further seperated into, Titles, Release Date and Movie Type. The data was then seperated based on the data we had wanted to analyze by, genere, language, score, and the overall filtered data. The genre and score set will be merged into one set and used for the machine-learning aspect of the project. There are two other DataFrames that will be used for the presentation/dashboard, first DataFrame includes 3588 rows X 12 Columns with names and data and the second DataFrame is where only numeric data will be used and it includes 3588 rows X 5 columns which will be used for machine learning. Once all this has been completed and a new "Key" column is created to give each piece of media a unqiue ID, these were converted into CSVs.
 
-### Machine Learning - Model
-Below are the details and steps followed for Netflix Analyze:
+<h4 id="machine-learning">Machine Learning - Model</h4>
 
-1. Data Selection: Data was selected from kaggle.com as an excel file which was exported into a Microsoft SQL database paltform. It was then seperated into Titles, Release Date and Movie Type inside the SQL platform. 
+Below are the details and steps followed for the Machine-Learning section:
+
+1. Data Selection: Data was selected from kaggle.com as an excel file which was exported into a Microsoft SQL database paltform. It was then seperated into Titles, Release Date and Movie Type inside the Microsoft SQL platform. 
  
-2. The Original data set was seperated into different files based on Genre, Language and Score. After sifting through the column's raw data, it was cleaned by removing the coloumns which won't impact the rating e.g run time, images, Netflix Link,IMDb Link,Summary,IMDb Votes,Image,Poster,
-   TMDb Trailer,Trailer Site etc. There were missing data, duplicates and Nans and null values in the columns which were removed using SQL and Python as part of data cleaning. Total data after cleaning came down from 9425 rows X 29 columns to 3588 rows Xv12 Columns.
-   
-3. Two DataFrames were created with cleaned data. First DataFrame includes 3588 rows X 12 Columns which will be used for reports/dashboard using Tableau. The second DataFrame is where only numeric data will be used and it includes 3588 rows X 5 columns which will be used for machine learning.
-   
-4. Data Processing: New column "Key" was created which has unique values mapping to each Title. same Key has beed used in another xlsxfiles - Genre, Language and Score.
+2. The Original data set was seperated into different files based on Genre, Language and Score. After sifting through the raw dataset, it was cleaned by removing the columns which won't impact the rating e.g run time, images, Netflix Link, IMDb Link, Summary, IMDb Votes, Image, Poster, IMDb Trailer, Trailer Site etc. There were missing data, duplicates and NaNs (Not-a-number(s)) and null values in the columns which were removed using SQL and Python as part of data cleaning. Total data after cleaning came down from 9425 rows X 29 columns to 3588 rows Xv12 Columns.
+      
+3. The score dataset and genre dataset were merged with Pandas on the "Key" column and had its index set to said column creating an overall larger set to work down from.
 
-5. Data Transformation : After cleaning all data, the data was stored in two CSV files for further analysis and used for Report and Machine learning. 
+*Merged DataFrame*
+
+![Merged_DataFrame.PNG](https://github.com/Cyber-Wolfe/Netflix_and_Analyze/blob/main/Resources/Merged_DataFrame.PNG)
+
+4. After the merge of the two DataFrames, Short War, Reality-Tv, Talk/-Show, and Game-Show were all dropped for having no media that had these categories listed.
+
+5. Each genre column was listed out and then given its own DataFrame to make its own Regression with.
+*Merged DataFrame
+
 
 *Linear Regression*
  
-![](https://github.com/Cyber-Wolfe/Netflix_and_Analyze/blob/Netflix_Analyze_Dataframe/Resources/Picture18.png) 
+![ScatterPlotBestFIt.png](https://github.com/Cyber-Wolfe/Netflix_and_Analyze/blob/Netflix_Analyze_Dataframe/Resources/ScatterPlotBestFIt.png) 
 
-*Neutral Network Test*
+*Classification Test*
 
-![](https://github.com/Cyber-Wolfe/Netflix_and_Analyze/blob/Netflix_Analyze_Dataframe/Resources/Picture19.png) 
+![Classification.png](https://github.com/Cyber-Wolfe/Netflix_and_Analyze/blob/Netflix_Analyze_Dataframe/Resources/Classification.png) 
  
 
-### Database Mockup
+<h4 id="database-mockup">Database Mockup</h4>
 
 ![dbdiagram.PNG](https://github.com/Cyber-Wolfe/Netflix_and_Analyze/blob/main/Resources/dbdiagram.PNG)
 
 
-## Communication
+<h3 id="communication">Communication</h3>
 
-### Channels:
+<h4 id="channels">Channels:</h4>
 
 THe team will utilize Discord, Whatsapp, and github to communicate throughout the project. Discord will be used as a resource sharing platform, for code, troubleshooting larger issues, meetings, and screenshots of work in progress. Whatsapp will be for quick communication and assistance for the day-to-day. Lastly, Github will be utilized for filesharing and uploading completed work that is ready for peer-review.
 
 ![Roles.png](https://github.com/Cyber-Wolfe/Netflix_and_Analyze/blob/main/Resources/Roles.PNG)
 
-### Team Members & Roles 
+<h4 id="team-members">Team Members & Roles</h4> 
 
 Jean Pierre: Database mockup 
 
