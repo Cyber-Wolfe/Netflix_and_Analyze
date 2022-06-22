@@ -79,7 +79,7 @@ Below are the details and steps followed for Netflix Analyze:
 
 *Neutral Network Test*
 
-![](https://github.com/Cyber-Wolfe/Netflix_and_Analyze/blob/Netflix_Analyze_Dataframe/Resources/Picture19.png) 
+![ScatterPlot.png](https://github.com/Cyber-Wolfe/Netflix_and_Analyze/blob/Netflix_Analyze_Dataframe/Resources/ScatterPlot.png) 
  
 
 ### Database Mockup
