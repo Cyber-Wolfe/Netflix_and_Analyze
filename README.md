@@ -88,6 +88,17 @@ Below are the details and steps followed for the Machine-Learning section:
 
 <h4 id="database-mockup">Database Mockup</h4>
 
+After gathering the data wthin the online sources, it was a pure excel file with no changes. In order to gather the information we had to do the following steps in order to collect the data we need.
+
+* We had to create a Key column to mark each line as there could be multiple movies with the same name but realsed in a different year.
+* We had to seperate the genre type to another sheet by using the genre type as the header and marking 1 (Yes) or 2 (No) and using the key to connect both. Same process was done for the language types
+
+Once the excel file was complete, we had to import the information into a SQL database. 
+
+* We had to join tables to gather the information we need.
+* We had to create SQL View statment to view the movie, the year the movie was realease, and the Genre Type if it's a 1
+* Then we had to use the Average stamement to find the average of the genre type.
+
 ![dbdiagram.PNG](https://github.com/Cyber-Wolfe/Netflix_and_Analyze/blob/main/Resources/dbdiagram.PNG)
 
 
