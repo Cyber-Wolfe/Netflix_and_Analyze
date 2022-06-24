@@ -79,7 +79,7 @@ Below are the details and steps followed for the Machine-Learning section:
 
 7. Lastly, we created a linear regression object, then fit said object to the IMDb list to have a uniform measure for the other review sites. Then plotted IMDb against Rotten Tomatoes, Metacritic and then Hidden Gems in that order.
 
-![IMDb_vs_Rotten_Tomatoes_for_Action_Movies](https://github.com/Cyber-Wolfe/Netflix_and_Analyze/blob/Netflix_Analyze_Dataframe/Resources/IMDb_vs_Rotten_Tomatoes_for_Action_Movies.png)
+![IMDb_vs_Rotten_Tomatoes_for_Action_Movies](https://github.com/Cyber-Wolfe/Netflix_and_Analyze/blob/main/Resources/IMDb_vs_Rotten_Tomatoes_for_Action_Movies.png)
 *Linear Regression*
  
 ![ScatterPlotBestFIt.png](https://github.com/Cyber-Wolfe/Netflix_and_Analyze/blob/Netflix_Analyze_Dataframe/Resources/ScatterPlotBestFIt.png) 
