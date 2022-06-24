@@ -114,10 +114,10 @@ THe team will utilize Discord, Whatsapp, and github to communicate throughout th
 
 <h4 id="team-members">Team Members & Roles</h4> 
 
-Jean Pierre: Database mockup 
+Jean Pierre: Database Design
 
-Josh Wolfe: Leading repository structure and requests
+Josh Wolfe: Leading repository structure and machine learning
 
-Ethan Freeze: Giving direction on technologies to use
+Ethan Freeze: Giving direction on technologies to use and AWS connectivity
 
-Suman:  Working on machine learning models
+Suman:  Data Cleaning, structuring, and dashboard design
