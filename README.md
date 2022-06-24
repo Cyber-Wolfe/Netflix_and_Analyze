@@ -79,9 +79,11 @@ Below are the details and steps followed for the Machine-Learning section:
 
 ![NumpyList.PNG](https://github.com/Cyber-Wolfe/Netflix_and_Analyze/blob/main/Resources/NumpyList.PNG)
 
-7. Lastly, we created a linear regression object, then fit said object to the IMDb list to have a uniform measure for the other review sites. Then plotted IMDb against Rotten Tomatoes, Metacritic and then Hidden Gems in that order.
+7. Next a Linear regression object was created, then said object was fit and reshaped with the IMDb data and that training data, and then the IMDb data was reshaped and given a prediction. This would obtain a line of best-fit for the graph. We had used the IMDb data as an uniform measure for the other review sites because of it having the most reliable data out of the initial site. As well as it acting as an actual database unlike the other aggregate review sites. 
 
-*Line of Best-Fit for Linear Regression*
+8. Lastly, these steps were repeated for each review site, and then the process was repeated for each genre.
+
+*Line of Best-Fit for Linear regression*
 
 ![IMDb_vs_Rotten_Tomatoes_for_Action_Movies](https://github.com/Cyber-Wolfe/Netflix_and_Analyze/blob/main/Resources/IMDb_vs_Rotten_Tomatoes_for_Action_Movies.png)
 
