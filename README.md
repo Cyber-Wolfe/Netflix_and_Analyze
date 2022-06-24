@@ -73,10 +73,13 @@ Below are the details and steps followed for the Machine-Learning section:
 
 4. After the merge of the two DataFrames, Short War, Reality-Tv, Talk/-Show, and Game-Show were all dropped for having no media that had these categories listed.
 
-5. Each genre column was listed out and then given its own DataFrame to make its own Regression with.
-*Merged DataFrame
+5. Each genre column was listed out and then set to its own DataFrame for making Regressions.
 
+6. Once the Genre DataFrames were made, each score column was set to a list, and then set to a numpy array for use with SKLearn's Linear Regression model.
 
+7. Lastly, we created a linear regression object, then fit said object to the IMDb list to have a uniform measure for the other review sites. Then plotted IMDb against Rotten Tomatoes, Metacritic and then Hidden Gems in that order.
+
+![IMDb_vs_Rotten_Tomatoes_for_Action_Movies](https://github.com/Cyber-Wolfe/Netflix_and_Analyze/blob/Netflix_Analyze_Dataframe/Resources/IMDb_vs_Rotten_Tomatoes_for_Action_Movies.png)
 *Linear Regression*
  
 ![ScatterPlotBestFIt.png](https://github.com/Cyber-Wolfe/Netflix_and_Analyze/blob/Netflix_Analyze_Dataframe/Resources/ScatterPlotBestFIt.png) 
