@@ -77,6 +77,8 @@ Below are the details and steps followed for the Machine-Learning section:
 
 6. Once the Genre DataFrames were made, each score column was set to a list, and then set to a numpy array for use with SKLearn's Linear Regression model.
 
+![NumpyList.PNG](https://github.com/Cyber-Wolfe/Netflix_and_Analyze/blob/main/Resources/NumpyList.PNG)
+
 7. Lastly, we created a linear regression object, then fit said object to the IMDb list to have a uniform measure for the other review sites. Then plotted IMDb against Rotten Tomatoes, Metacritic and then Hidden Gems in that order.
 
 *Line of Best-Fit for Linear Regression*
