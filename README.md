@@ -22,8 +22,8 @@
 
 
 <h3 id="overview">Overview of the Project:</h3>
-	Today's challenge with movies is the influence of critics on the medium. They play a significant role in the success of movies along with prominent websites e.g. IMDb, Rotten Tomatoes, Metacritic, Hidden Gem, etc. 
-	There are different variables that play a role in the movie's score like genre, language, actors, director, budget etc. This project is aimed to analyse movie critic data to determine if there are implicit biases from Rotten Tomatoes, Metacritic, IMDB, and Hidden Gems. 
+	Today's challenge with movies is the influence of critics on the medium. They play a significant role in the success of movies along with prominent websites e.g. IMDb, Rotten Tomatoes, Metacritic, Hidden Gem, etc.  
+	There are different variables that play a role in the movie's score like genre, language, actors, director, budget etc. This project is aimed to analyse movie critic data to determine if there are implicit biases from Rotten Tomatoes, Metacritic, IMDB, and Hidden Gems.  
 	Our findings will show if movie critic ratings are unbiased for the genre of movie for each site. This topic was selected because critic reviews vary from site to site and it's hard to understand if a movie is truly good because of its merit or if a certain site doesn't like said movie genres. With that goal we also want to uncover whether certain sites are a better source of reviews for a specific movie genre than others. 
 
 ### Question Answered:
