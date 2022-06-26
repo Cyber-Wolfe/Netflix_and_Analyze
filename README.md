@@ -118,7 +118,7 @@ Once the excel file was complete, we had to import the information into a SQL da
 * We had to create SQL View statment to view the movie, the year the movie was realease, and the Genre Type if it's a 1
 * Then we had to use the Average stamement to find the average of the genre type.
 
-![dbdiagram.PNG](https://github.com/Cyber-Wolfe/Netflix_and_Analyze/blob/main/Resources/dbdiagram.PNG)
+![ERD_Diagram.PNG](https://github.com/Cyber-Wolfe/Netflix_and_Analyze/blob/main/Resources/dbdiagram.PNG](https://github.com/Cyber-Wolfe/Netflix_and_Analyze/blob/main/Resources/ERD_Diagram.PNG)
 
 
 <h3 id="communication">Communication</h3>
