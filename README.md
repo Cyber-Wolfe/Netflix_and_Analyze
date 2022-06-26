@@ -59,7 +59,8 @@ and the movie rating (PG-13, R, PG). We have even come across datasets that brea
 * Tableau - to be implemented
 
 <h3 id="th-overview">Tech Overview</h3>
-    The initial cleaning of our data had been done by translating the excel sheet and exporting them into a the Microsoft SQL database platform and were further seperated into, Titles, Release Date and Movie Type. The data was then seperated based on the data we had wanted to analyze by, genere, language, score, and the overall filtered data. Once that step has been completed a new "Key" column is created to give each piece of media a unqiue ID. This will allow us to keeps strings from being in the DataFrames. 
+    The initial cleaning of our data had been done by translating the excel sheet and exporting them into a the Microsoft SQL database platform and were further seperated into, Titles, Release Date and Movie Type. The data was then seperated based on the data we had wanted to analyze by, genere, language, score, and the overall filtered data. Once that step has been completed a new "Key" column is created to give each piece of media a unqiue ID. This will allow us to keeps strings from being in the DataFrames.
+   
     
 There are two main DataFrames that will be used for the dashboard. The first DataFrame includes 3588 rows X 12 columns of the original movie titles and numeric data, cleaned of not-a-number data and null values. The second DataFrame is where only numeric data will be used and it includes 3588 rows X 5 columns which will be further broken down, cleaned, and merged with the genre dataset for the machine learning portion. This entire process was done utilizing Microsoft SQL Platform and VBA in Excel.
 
