@@ -82,9 +82,13 @@ Below are the details and steps followed for the Machine-Learning section:
 
 ![NumpyList.PNG](https://github.com/Cyber-Wolfe/Netflix_and_Analyze/blob/main/Resources/NumpyList.PNG)
 
-7. Next a Linear regression object was created, then said object was fit and reshaped with the IMDb data and that training data, and then the IMDb data was reshaped and given a prediction. This would obtain a line of best-fit for the graph. We had used the IMDb data as an uniform measure for the other review sites because of it having the most reliable data out of the initial site. As well as it acting as an actual database unlike the other aggregate review sites. 
+7. Next a Linear regression object was created, then trained and fit using the IMDb data along with the Rotten Tomatoes data. The IMDb data was used as an uniform measure for this Regression because it was deemed as having the most reliable data out of the dataset.
 
-8. Lastly, these steps were repeated for each review site, and then the process was repeated for each genre.
+8. The regression was set to the training data and given a prediction and reshaped.
+
+9. Lastly, it as set to a scatter-plot with a line of best fit.
+
+10. The steps 5-10 were then repeated for each site under each genre to get 66 different scatter-plots.
 
 *Line of Best-Fit for Linear regression*
 
