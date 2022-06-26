@@ -26,7 +26,9 @@ Today's challenge with movies is the influence of critics on the medium. They pl
 Our findings will show if movie critic ratings are unbiased for the genre of movie for each site. This topic was selected because critic reviews vary from site to site and it's hard to understand if a movie is truly good because of its merit or if a certain site doesn't like said movie genres. With that goal we also want to uncover whether certain sites are a better source of reviews for a specific movie genre than others. 
 
 ### Question Answered:
-* Use the dataset to find a bias in the critic review score:
+* Use the dataset to find a bias in the critic review score
+
+* Each site has its own genre that it prefers
 
 * Relationship between the movie rating and the box office earnings?
     * Biased critique of a movie may impact box office earnings negatively.
