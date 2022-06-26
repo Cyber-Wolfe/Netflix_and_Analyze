@@ -22,8 +22,9 @@
 
 
 <h3 id="overview">Overview of the Project:</h3>
-Today's challenge with movies is the influence of critics on the medium. They play a significant role in the success of movies along with prominent websites e.g. IMDb, Rotten Tomatoes, Metacritic, Hidden Gem, etc. There are different variables that play a role in the movie's score like genre, language, actors, director, budget etc. This project is aimed to analyse movie critic data to determine if there are implicit biases from Rotten Tomatoes, Metacritic, IMDB, and Hidden Gems. 
-Our findings will show if movie critic ratings are unbiased for the genre of movie for each site. This topic was selected because critic reviews vary from site to site and it's hard to understand if a movie is truly good because of its merit or if a certain site doesn't like said movie genres. With that goal we also want to uncover whether certain sites are a better source of reviews for a specific movie genre than others. 
+	Today's challenge with movies is the influence of critics on the medium. They play a significant role in the success of movies along with prominent websites e.g. IMDb, Rotten Tomatoes, Metacritic, Hidden Gem, etc. 
+	There are different variables that play a role in the movie's score like genre, language, actors, director, budget etc. This project is aimed to analyse movie critic data to determine if there are implicit biases from Rotten Tomatoes, Metacritic, IMDB, and Hidden Gems. 
+	Our findings will show if movie critic ratings are unbiased for the genre of movie for each site. This topic was selected because critic reviews vary from site to site and it's hard to understand if a movie is truly good because of its merit or if a certain site doesn't like said movie genres. With that goal we also want to uncover whether certain sites are a better source of reviews for a specific movie genre than others. 
 
 ### Question Answered:
 * Use the dataset to find a bias in the critic review score
@@ -36,7 +37,7 @@ Our findings will show if movie critic ratings are unbiased for the genre of mov
         reviews, not allowing a movie to reach its full potential in sales even if customers would enjoy it
 
 <h3 id="data-sources">Data Sources/Data Overview</h3>
-For our project, we used Netflix xlsx file  from Kaggle.com. We used multiple datasets of critic reviews broken down by what critic service the reviews were pulled from, box office earnings, genre of the movie, 
+	For our project, we used Netflix xlsx file  from Kaggle.com. We used multiple datasets of critic reviews broken down by what critic service the reviews were pulled from, box office earnings, genre of the movie, 
 and the movie rating (PG-13, R, PG). We have even come across datasets that break down the movie score by the critic it was given from.
 
 1. Original Netflix data : https://www.kaggle.com/datasets/syedmubarak/netflix-dataset-latest-2021
@@ -56,8 +57,8 @@ and the movie rating (PG-13, R, PG). We have even come across datasets that brea
 * Tableau - to be implemented
 
 <h3 id="th-overview">Tech Overview</h3>
-
-The initial cleaning of our data had been done by translating the excel sheet and exporting them into a the Microsoft SQL database platform and were further seperated into, Titles, Release Date and Movie Type. The data was then seperated based on the data we had wanted to analyze by, genere, language, score, and the overall filtered data. The genre and score set will be merged into one set and used for the machine-learning aspect of the project. There are two other DataFrames that will be used for the presentation/dashboard, first DataFrame includes 3588 rows X 12 Columns with names and data and the second DataFrame is where only numeric data will be used and it includes 3588 rows X 5 columns which will be used for machine learning. Once all this has been completed and a new "Key" column is created to give each piece of media a unqiue ID, these were converted into CSVs.
+	The initial cleaning of our data had been done by translating the excel sheet and exporting them into a the Microsoft SQL database platform and were further seperated into, Titles, Release Date and Movie Type. The data was then seperated based on the data we had wanted to analyze by, genere, language, score, and the overall filtered data. The genre and score set will be merged into one set and used for the machine-learning aspect of the project. 
+	There are two other DataFrames that will be used for the presentation/dashboard, first DataFrame includes 3588 rows X 12 Columns with names and data and the second DataFrame is where only numeric data will be used and it includes 3588 rows X 5 columns which will be used for machine learning. Once all this has been completed and a new "Key" column is created to give each piece of media a unqiue ID, these were converted into CSVs.
 
 <h4 id="machine-learning">Machine Learning - Model</h4>
 
@@ -91,8 +92,7 @@ Below are the details and steps followed for the Machine-Learning section:
 
  
 <h4 id="database-mockup">Database Mockup</h4>
-
-After gathering the data wthin the online sources, it was a pure excel file with no changes. In order to gather the information we had to do the following steps in order to collect the data we need.
+	After gathering the data wthin the online sources, it was a pure excel file with no changes. In order to gather the information we had to do the following steps in order to collect the data we need.
 
 * We had to create a Key column to mark each line as there could be multiple movies with the same name but realsed in a different year.
 * We had to seperate the genre type to another sheet by using the genre type as the header and marking 1 (Yes) or 2 (No) and using the key to connect both. Same process was done for the language types
@@ -109,8 +109,7 @@ Once the excel file was complete, we had to import the information into a SQL da
 <h3 id="communication">Communication</h3>
 
 <h4 id="channels">Channels:</h4>
-
-THe team will utilize Discord, Whatsapp, and github to communicate throughout the project. Discord will be used as a resource sharing platform, for code, troubleshooting larger issues, meetings, and screenshots of work in progress. Whatsapp will be for quick communication and assistance for the day-to-day. Lastly, Github will be utilized for filesharing and uploading completed work that is ready for peer-review.
+	THe team will utilize Discord, Whatsapp, and github to communicate throughout the project. Discord will be used as a resource sharing platform, for code, troubleshooting larger issues, meetings, and screenshots of work in progress. Whatsapp will be for quick communication and assistance for the day-to-day. Lastly, Github will be utilized for filesharing and uploading completed work that is ready for peer-review.
 
 ![Roles.png](https://github.com/Cyber-Wolfe/Netflix_and_Analyze/blob/main/Resources/Roles.PNG)
 
