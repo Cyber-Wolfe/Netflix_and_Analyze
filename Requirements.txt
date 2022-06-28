@@ -1,0 +1,12 @@
+pandas
+pyodbc
+matplotlib
+numpy
+csv
+os
+pathlib
+ipython-sql
+sklearn
+statistics
+pymssql
+tensorflow
