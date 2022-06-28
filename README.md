@@ -28,6 +28,8 @@ There are different variables that play a role in the movie's score like genre, 
 	
 Our findings will show if movie critic ratings are unbiased for the genre of movie for each site. This topic was selected because critic reviews vary from site to site and it's hard to understand if a movie is truly good because of its merit or if a certain site doesn't like said movie genres. With that goal we also want to uncover whether certain sites are a better source of reviews for a specific movie genre than others. 
 
+Google Slides: [Click here for Slide Deck](https://docs.google.com/presentation/d/17Cv1lCBajNf77SkPaN0hBtOcZtGt1UBE2FAaJP58B2c/edit#slide=id.g13601e1e3e9_2_0)
+
 ### Question Answered:
 * Use the dataset to find a bias in the critic review score
 
