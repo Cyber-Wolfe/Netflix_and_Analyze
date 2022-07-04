@@ -101,7 +101,7 @@ The description above gave the theory of the Machine-Learning segment, this will
 
 *Line of Best-Fit for Linear regression*
 
-![IMDb_vs_Rotten_Tomatoes_for_Action_Movies](https://github.com/Cyber-Wolfe/Netflix_and_Analyze/blob/main/Resources/IMDb_vs_Rotten_Tomatoes_for_Action_Movies.png)
+![RegressionSet](https://github.com/Cyber-Wolfe/Netflix_and_Analyze/blob/main/Resources/RegressionSet.PNG)
 
  
 <h4 id="database-mockup">Database Mockup</h4>
