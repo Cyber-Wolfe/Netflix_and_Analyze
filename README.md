@@ -99,7 +99,7 @@ The description above gave the theory of the Machine-Learning segment, this will
 
 10. The steps 5-10 were then repeated for each site under each genre to get 66 different scatter-plots.
 
-*Line of Best-Fit for Linear regression of Drama Media*
+*Line of Best-Fit for Linear regression of Drama Movies*
 
 ![RegressionSet](https://github.com/Cyber-Wolfe/Netflix_and_Analyze/blob/main/Resources/RegressionSet.PNG)
 
