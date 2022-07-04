@@ -14,10 +14,6 @@
 
 <a href="#database-mockup">* Database Mockup</a>
 
-<a href="#communication">Communication</a>
-
-<a href="#channels">* Channels</a>
-
 <a href="#team-members">* Team Members & Roles</a>
 
 
@@ -121,21 +117,3 @@ Once the excel file was complete, we had to import the information into a SQL da
 * Then we had to use the Average stamement to find the average of the genre type.
 
 ![ERD_Diagram.PNG](https://github.com/Cyber-Wolfe/Netflix_and_Analyze/blob/main/Resources/ERD_Diagram.PNG)
-
-
-<h3 id="communication">Communication</h3>
-
-<h4 id="channels">Channels:</h4>
-	THe team will utilize Discord, Whatsapp, and github to communicate throughout the project. Discord will be used as a resource sharing platform, for code, troubleshooting larger issues, meetings, and screenshots of work in progress. Whatsapp will be for quick communication and assistance for the day-to-day. Lastly, Github will be utilized for filesharing and uploading completed work that is ready for peer-review.
-
-![Roles.png](https://github.com/Cyber-Wolfe/Netflix_and_Analyze/blob/main/Resources/Roles.PNG)
-
-<h4 id="team-members">Team Members & Roles</h4> 
-
-Jean Pierre: Database Design
-
-Josh Wolfe: Leading repository structure and machine learning
-
-Ethan Freeze: Giving direction on technologies to use and AWS connectivity
-
-Suman:  Data Cleaning, structuring, and dashboard design
