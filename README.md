@@ -14,9 +14,6 @@
 
 <a href="#database-mockup"> Database Mockup</a>
 
-<a href="#team-members"> Team Members & Roles</a>
-
-
 <h3 id="overview">Overview of the Project:</h3>
 Today's challenge with movies is the influence of critics on the medium. They play a significant role in the success of movies along with prominent websites e.g. IMDb, Rotten Tomatoes, Metacritic, Hidden Gem, etc.  
 
