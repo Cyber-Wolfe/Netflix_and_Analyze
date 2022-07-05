@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, render_template
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy.sql import text
  
@@ -12,7 +12,7 @@ def home_view():
 #Call Database
 db_name = 'Entertainment_Ratings.db'
 
-app.config['SQLALCHEMY_DATABASE_URI'] = mssql://admin:Project123!@rutgersgroupproject.czymx7wg8j7o.us-east-1.rds.amazonaws.com,1433/Entertainment_Ratings
+app.config['SQLALCHEMY_DATABASE_URI'] = "mssql://admin:Project123!@rutgersgroupproject.czymx7wg8j7o.us-east-1.rds.amazonaws.com,1433/Entertainment_Ratings"
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
 db = SQLAlchemy(app)
 
