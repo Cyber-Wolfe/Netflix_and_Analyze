@@ -10,11 +10,11 @@
 
 <a href="#th-overview">Tech Overview</a>
 
-<a href="#machine-learning">* Machine-Learning Model</a>
+<a href="#machine-learning"> Machine-Learning Model</a>
 
-<a href="#database-mockup">* Database Mockup</a>
+<a href="#database-mockup"> Database Mockup</a>
 
-<a href="#team-members">* Team Members & Roles</a>
+<a href="#team-members"> Team Members & Roles</a>
 
 
 <h3 id="overview">Overview of the Project:</h3>
