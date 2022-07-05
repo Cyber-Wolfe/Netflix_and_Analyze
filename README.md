@@ -84,7 +84,7 @@ The description above gave the theory of the Machine-Learning segment, this will
 
 *Merged DataFrame*
 
-![Merged_DataFrame.PNG](https://github.com/Cyber-Wolfe/Netflix_and_Analyze/blob/main/Resources/Merged_DataFrame.PNG)
+![Merged_DataFrame.PNG](https://github.com/Cyber-Wolfe/Netflix_and_Analyze/blob/main/Resources/Captures/Merged_DataFrame.PNG)
 
 4. After the merge of the two DataFrames, Short War, Reality-Tv, Talk/-Show, and Game-Show were all dropped for having no media that had these categories listed.
 
@@ -104,7 +104,7 @@ The description above gave the theory of the Machine-Learning segment, this will
 
 *Line of Best-Fit for Linear regression of Drama Movies*
 
-![RegressionSet](https://github.com/Cyber-Wolfe/Netflix_and_Analyze/blob/main/Resources/RegressionSet.PNG)
+![RegressionSet](https://github.com/Cyber-Wolfe/Netflix_and_Analyze/blob/main/Resources/Captures/NumpyList.PNG)
 
  
 <h4 id="database-mockup">Database Mockup</h4>
@@ -119,4 +119,4 @@ Once the excel file was complete, we had to import the information into a SQL da
 * We had to create SQL View statment to view the movie, the year the movie was realease, and the Genre Type if it's a 1
 * Then we had to use the Average stamement to find the average of the genre type.
 
-![ERD_Diagram.PNG](https://github.com/Cyber-Wolfe/Netflix_and_Analyze/blob/main/Resources/ERD_Diagram.PNG)
+![ERD_Diagram.PNG](https://github.com/Cyber-Wolfe/Netflix_and_Analyze/blob/main/Resources/Captures/ERD_Diagram.PNG)
