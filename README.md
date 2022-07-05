@@ -1,4 +1,4 @@
-# Netflix and Analyze
+# Movie Bias Analysis
 
 ### Table of Contents 
 
@@ -10,16 +10,9 @@
 
 <a href="#th-overview">Tech Overview</a>
 
-<a href="#machine-learning">* Machine-Learning Model</a>
+<a href="#machine-learning"> Machine-Learning Model</a>
 
-<a href="#database-mockup">* Database Mockup</a>
-
-<a href="#communication">Communication</a>
-
-<a href="#channels">* Channels</a>
-
-<a href="#team-members">* Team Members & Roles</a>
-
+<a href="#database-mockup"> Database Mockup</a>
 
 <h3 id="overview">Overview of the Project:</h3>
 Today's challenge with movies is the influence of critics on the medium. They play a significant role in the success of movies along with prominent websites e.g. IMDb, Rotten Tomatoes, Metacritic, Hidden Gem, etc.  
@@ -29,6 +22,8 @@ There are different variables that play a role in the movie's score like genre, 
 Our findings will show if movie critic ratings are unbiased for the genre of movie for each site. This topic was selected because critic reviews vary from site to site and it's hard to understand if a movie is truly good because of its merit or if a certain site doesn't like said movie genres. With that goal we also want to uncover whether certain sites are a better source of reviews for a specific movie genre than others. 
 
 Google Slides: [Click here for Slide Deck](https://docs.google.com/presentation/d/17Cv1lCBajNf77SkPaN0hBtOcZtGt1UBE2FAaJP58B2c/edit#slide=id.g13601e1e3e9_2_0)
+
+Tableau Dashboard: [Click here for Tableau Dashboard](https://public.tableau.com/app/profile/suman.priya/viz/MoviesAnalysis_16568969555870/ComapringTitlesbysites?publish=yes)
 
 ### Question Answered:
 * Use the dataset to find a bias in the critic review score
@@ -52,13 +47,17 @@ and the movie rating (PG-13, R, PG). We have even come across datasets that brea
 <h3 id="technologies">Technologies</h3>
 
 * Python (Jupyter Notebook, Pandas)
-	* Importing of CSVs	
+	* Importing of CSVs
+	* Use of DataFrames for cleaning and organizing data
+	* Connecting to database via pymssql	
 
-* Microsoft SQL Server
+* Microsoft SQL Server for database and connectivity to data on the cloud from AWS.
 
-* Machine Learning in Python - to be implemented
+* Machine Learning in Python using SciKit Learn library for Linear Regression and line of best fit.
 
-* Tableau - to be implemented
+* Tableau dashboards for data visualization.
+
+* Use of Heroku for deployment of dashboard.
 
 <h3 id="th-overview">Tech Overview</h3>
 
@@ -103,9 +102,9 @@ The description above gave the theory of the Machine-Learning segment, this will
 
 10. The steps 5-10 were then repeated for each site under each genre to get 66 different scatter-plots.
 
-*Line of Best-Fit for Linear regression*
+*Line of Best-Fit for Linear regression of Drama Movies*
 
-![IMDb_vs_Rotten_Tomatoes_for_Action_Movies](https://github.com/Cyber-Wolfe/Netflix_and_Analyze/blob/main/Resources/IMDb_vs_Rotten_Tomatoes_for_Action_Movies.png)
+![RegressionSet](https://github.com/Cyber-Wolfe/Netflix_and_Analyze/blob/main/Resources/RegressionSet.PNG)
 
  
 <h4 id="database-mockup">Database Mockup</h4>
@@ -121,21 +120,3 @@ Once the excel file was complete, we had to import the information into a SQL da
 * Then we had to use the Average stamement to find the average of the genre type.
 
 ![ERD_Diagram.PNG](https://github.com/Cyber-Wolfe/Netflix_and_Analyze/blob/main/Resources/ERD_Diagram.PNG)
-
-
-<h3 id="communication">Communication</h3>
-
-<h4 id="channels">Channels:</h4>
-	THe team will utilize Discord, Whatsapp, and github to communicate throughout the project. Discord will be used as a resource sharing platform, for code, troubleshooting larger issues, meetings, and screenshots of work in progress. Whatsapp will be for quick communication and assistance for the day-to-day. Lastly, Github will be utilized for filesharing and uploading completed work that is ready for peer-review.
-
-![Roles.png](https://github.com/Cyber-Wolfe/Netflix_and_Analyze/blob/main/Resources/Roles.PNG)
-
-<h4 id="team-members">Team Members & Roles</h4> 
-
-Jean Pierre: Database Design
-
-Josh Wolfe: Leading repository structure and machine learning
-
-Ethan Freeze: Giving direction on technologies to use and AWS connectivity
-
-Suman:  Data Cleaning, structuring, and dashboard design
