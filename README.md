@@ -50,13 +50,17 @@ and the movie rating (PG-13, R, PG). We have even come across datasets that brea
 <h3 id="technologies">Technologies</h3>
 
 * Python (Jupyter Notebook, Pandas)
-	* Importing of CSVs	
+	* Importing of CSVs
+	* Use of DataFrames for cleaning and organizing data
+	* Connecting to database via pymssql	
 
-* Microsoft SQL Server
+* Microsoft SQL Server for database and connectivity to data on the cloud from AWS.
 
-* Machine Learning in Python - to be implemented
+* Machine Learning in Python using SciKit Learn library for Linear Regression and line of best fit.
 
-* Tableau - to be implemented
+* Tableau dashboards for data visualization.
+
+* Use of Heroku for deployment of dashboard.
 
 <h3 id="th-overview">Tech Overview</h3>
 
