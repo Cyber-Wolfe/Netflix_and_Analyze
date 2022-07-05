@@ -1,4 +1,4 @@
-# Netflix and Analyze
+# Movie Bias Analysis
 
 ### Table of Contents 
 
