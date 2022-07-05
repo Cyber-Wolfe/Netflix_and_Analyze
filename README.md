@@ -92,7 +92,7 @@ The description above gave the theory of the Machine-Learning segment, this will
 
 6. Once the Genre DataFrames were made, each score column was set to a list, and then set to a numpy array for use with SKLearn's Linear Regression model.
 
-![NumpyList.PNG](https://github.com/Cyber-Wolfe/Netflix_and_Analyze/blob/main/Resources/NumpyList.PNG)
+![NumpyList.PNG](https://github.com/Cyber-Wolfe/Netflix_and_Analyze/blob/main/Resources/Captures/NumpyList.PNG)
 
 7. Next a Linear regression object was created, then trained and fit using the IMDb data along with the Rotten Tomatoes data. The IMDb data was used as an uniform measure for this Regression because it was deemed as having the most reliable data out of the dataset.
 
@@ -104,7 +104,7 @@ The description above gave the theory of the Machine-Learning segment, this will
 
 *Line of Best-Fit for Linear regression of Drama Movies*
 
-![RegressionSet](https://github.com/Cyber-Wolfe/Netflix_and_Analyze/blob/main/Resources/Captures/NumpyList.PNG)
+![RegressionSet](https://github.com/Cyber-Wolfe/Netflix_and_Analyze/blob/main/Resources/Captures/RegressionSet.PNG)
 
  
 <h4 id="database-mockup">Database Mockup</h4>
