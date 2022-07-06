@@ -39,7 +39,8 @@ Tableau Dashboard: [Click here for Tableau Dashboard](https://public.tableau.com
 	For our project, we used Netflix xlsx file  from Kaggle.com. We used multiple datasets of critic reviews broken down by what critic service the reviews were pulled from, box office earnings, genre of the movie, 
 and the movie rating (PG-13, R, PG). We have even come across datasets that break down the movie score by the critic it was given from.
 
-Original Netflix data : https://www.kaggle.com/datasets/syedmubarak/netflix-dataset-latest-2021
+
+Original Netflix data : [Click here for Data Source](https://www.kaggle.com/datasets/syedmubarak/netflix-dataset-latest-2021)
 
 
 
