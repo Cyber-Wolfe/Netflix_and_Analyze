@@ -90,7 +90,7 @@ The description above gave the theory of the Machine-Learning segment, this will
 
 5. Each genre column was listed out and then set to its own DataFrame for making Regressions.
 
-6. Once the Genre DataFrames were made, each score column was set to a list, and then set to a numpy array for use with SKLearn's Linear Regression model.
+6. Once the Genre DataFrames were made, each score column was set to a list, and then set to a numpy array for use with scikit-learn's Linear Regression model.
 
 ![NumpyList.PNG](https://github.com/Cyber-Wolfe/Netflix_and_Analyze/blob/main/Resources/Captures/NumpyList.PNG)
 
