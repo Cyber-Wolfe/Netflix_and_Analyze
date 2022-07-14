@@ -105,10 +105,14 @@ The description above gave the theory of the Machine-Learning segment, this will
 
  
 <h4 id="database-mockup">Database Mockup</h4>
-	After gathering the data wthin the online sources, it was a pure excel file with no changes. In order to gather the information we had to do the following steps in order to collect the data we need.
+	After gathering the data from the dataset it was an excel file which could pose encoding issues so in order to organize the data we had to do the following steps in order to collect the data we need.
 
-* We had to create a Key column to mark each line as there could be multiple movies with the same name but realsed in a different year.
-* We had to seperate the genre type to another sheet by using the genre type as the header and marking 1 (Yes) or 2 (No) and using the key to connect both. Same process was done for the language types
+* We had to create a Key column.
+	1. To mark each line as there could be multiple titles with the same name.
+	2. We had to seperate the genre type to another sheet by using the genre type as the header and marking 1 (Yes) or 2 (No) and using the key to connect both.
+	3. Same process was done for the language types.
+* The key would allow us to bypass encoding, mulitple languages can prove an issue for Pandas to read.
+* A breakdown of the genres into their own columns with bnary encoding could help organize our data more efficiently.
 
 Once the excel file was complete, we had to import the information into a SQL database. 
 
