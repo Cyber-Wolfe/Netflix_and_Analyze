@@ -109,10 +109,9 @@ The description above gave the theory of the Machine-Learning segment, this will
 
 * We had to create a Key column.
 	1. To mark each line as there could be multiple titles with the same name.
-	2. We had to seperate the genre type to another sheet by using the genre type as the header and marking 1 (Yes) or 2 (No) and using the key to connect both.
-	3. Same process was done for the language types.
-* The key would allow us to bypass encoding, mulitple languages can prove an issue for Pandas to read.
-* A breakdown of the genres into their own columns with bnary encoding could help organize our data more efficiently.
+	2. The key would allow us to bypass encoding, mulitple languages can prove an issue for Pandas to read.
+* We had to seperate the genre type to another sheet with binary encoding (marking 1 (Yes) or 2 (No)).
+* The previous process was done for the language types.	
 
 Once the excel file was complete, we had to import the information into a SQL database. 
 
