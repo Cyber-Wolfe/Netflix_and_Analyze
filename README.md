@@ -47,17 +47,14 @@ Original Netflix data : [Click here for Data Source](https://www.kaggle.com/data
 <h3 id="technologies">Technologies</h3>
 
 * Python (Jupyter Notebook, Pandas)
-	* Importing of CSVs
-	* Use of DataFrames for cleaning and organizing data
-	* Connecting to database via pymssql	
+	* Importing of CSVs.
+	* Use of DataFrames for cleaning and organizing data.
+	* Connecting to database via pymssql.
+	* Machne Learning via scikit Learn library for Linear Regression and line of best fit.
 
 * Microsoft SQL Server for database and connectivity to data on the cloud from AWS.
 
-* Machine Learning in Python using SciKit Learn library for Linear Regression and line of best fit.
-
 * Tableau dashboards for data visualization.
-
-* Use of Heroku for deployment of dashboard.
 
 <h3 id="th-overview">Tech Overview</h3>
 
